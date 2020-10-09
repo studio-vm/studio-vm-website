@@ -1,0 +1,97 @@
+* {
+   /* COLORS */
+   --clr-l-1: hsl(240, 10%, 95%);
+   --clr-d-1: hsl(225, 25%, 30%);
+   --clr-l-2: hsl(210, 20%, 80%);
+   --clr-d-2: hsl(210, 100%, 50%);
+   --clr-l-3: hsl(140, 20%, 80%);
+   --clr-d-3: hsl(140, 60%, 50%);
+   
+   /* White to Black; 10% increments*/
+   --clr-w0: hsl(0, 0%, 100%);
+   --clr-w1: hsl(0, 0%, 90%);
+   --clr-w2: hsl(0, 0%, 80%);
+   --clr-w3: hsl(0, 0%, 70%);
+   --clr-w4: hsl(0, 0%, 60%);
+   --clr-g: hsl(0, 0%, 50%);
+   --clr-b4: hsl(0, 0%, 40%);
+   --clr-b3: hsl(0, 0%, 30%);
+   --clr-b2: hsl(0, 0%, 20%);
+   --clr-b1: hsl(0, 0%, 10%);
+   --clr-b0: hsl(0, 0%, 00%);
+   
+   /* MARGINS */
+   --m-0: 0;
+   --m-02: 0.2rem;
+   --m-04: 0.4rem;
+   --m-06: 0.6rem;
+   --m-08: 0.8rem;
+   --m-1: 1rem;
+   --m-15: 1.5rem;
+   --m-2: 2.0rem;
+   --m-25: 2.5rem;
+   --m-3: 3.0rem;
+   
+   /* PADDING */
+   --p-0: 0;
+   --p-02: 0.2rem;
+   --p-04: 0.4rem;
+   --p-06: 0.6rem;
+   --p-08: 0.8rem;
+   --p-1: 1rem;
+   --p-15: 1.5rem;
+   --p-2: 2.0rem;
+   --p-25: 2.5rem;
+   --p-3: 3.0rem;
+   
+   /* BOX SHADOW 1*/
+   --l-hsla-1: 240, 20%, 35%, 0.2;
+   --l-side-1: hsla(var(--l-hsla-1));
+   --d-hsla-1: 80, 80%, 100%, 1;
+   --d-side-1: hsla(var(--d-hsla-1));
+   --blur-1: 40;
+   --s-len-1: 20;
+
+   --box-sh-o-1: 
+      calc(var(--s-len-1) * 1px) calc(var(--s-len-1) * 1px) calc(var(--blur-1) * 1px) var(--l-side-1), 
+      calc(var(--s-len-1) * -1px) calc(var(--s-len-1) * -1px) calc(var(--blur-1) * 1px) var(--d-side-1);
+
+   --box-sh-i-1: 
+      inset calc(var(--s-len-1) * 1px) calc(var(--s-len-1) * 1px) calc(var(--blur-1) * 1px) var(--l-side-1), 
+      inset calc(var(--s-len-1) * -1px) calc(var(--s-len-1) * -1px) calc(var(--blur-1) * 1px) var(--d-side-1);
+
+      /* BOX SHADOW 2*/
+   --l-hsla-2: 240, 20%, 35%, 0.2;
+   --l-side-2: hsla(var(--l-hsla-2));
+   --d-hsla-2: 80, 80%, 100%, 1;
+   --d-side-2: hsla(var(--d-hsla-2));
+   --blur-2: 7;
+   --s-len-2: 5;
+
+   --box-sh-o-2: 
+      calc(var(--s-len-2) * 1px) calc(var(--s-len-2) * 1px) calc(var(--blur-2) * 1px) var(--l-side-2), 
+      calc(var(--s-len-2) * -1px) calc(var(--s-len-2) * -1px) calc(var(--blur-2) * 1px) var(--d-side-2);
+      
+   --box-sh-i-2: 
+      inset calc(var(--s-len-2) * 1px) calc(var(--s-len-2) * 1px) calc(var(--blur-2) * 1px) var(--l-side-2), 
+      inset calc(var(--s-len-2) * -1px) calc(var(--s-len-2) * -1px) calc(var(--blur-2) * 1px) var(--d-side-2);
+   
+      /* BOX SHADOW 3*/
+   --l-hsla-3: 240, 87%, 10%, 0.4;
+   --l-side-3: hsla(var(--l-hsla-3));
+   --d-hsla-3: 80, 87%, 90%, 0.5;
+   --d-side-3: hsla(var(--d-hsla-3));
+   --blur-3: 37;
+   --s-len-3: 14;
+
+   --box-sh-o-3: 
+      calc(var(--s-len-3) * 1px) calc(var(--s-len-3) * 1px) calc(var(--blur-3) * 1px) var(--l-side-3), 
+      calc(var(--s-len-3) * -1px) calc(var(--s-len-3) * -1px) calc(var(--blur-3) * 1px) var(--d-side-3);
+      
+   --box-sh-i-3: 
+      inset calc(var(--s-len-3) * 1px) calc(var(--s-len-3) * 1px) calc(var(--blur-3) * 1px) var(--l-side-3), 
+      inset calc(var(--s-len-3) * -1px) calc(var(--s-len-3) * -1px) calc(var(--blur-3) * 1px) var(--d-side-3);
+   
+   }
+
+
